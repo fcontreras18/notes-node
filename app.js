@@ -20,5 +20,5 @@ if (command === 'add') {
 } else if (command === 'read') {
   notes.getNote(argv.title);
 } else {
-  console.log('Command not recognized');
+  console.log('Command not recognized.');
 }
